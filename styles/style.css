@@ -432,3 +432,102 @@ section {
     background: #8650db;
     color: white;
 }
+
+ .hero {
+        gap: 25px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+/* MOBILE PHONES */
+
+@media screen and (max-width: 600px) {
+
+    .site-header {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    nav {
+        order: 3;
+        width: 100%;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    nav a {
+        font-size: 11px;
+    }
+
+    .contact-button {
+        font-size: 11px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 65px 7%;
+    }
+
+    .hero h1 {
+        font-size: 43px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+
+    .profile-box {
+        margin-top: 35px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-logo {
+        font-size: 75px;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .skills-container,
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .skills h2,
+    .projects h2,
+    .contact h2,
+    .about h2 {
+        font-size: 35px;
+    }
+
+    .contact {
+        padding: 75px 7%;
+    }
+
+    .footer {
+        line-height: 1.8;
+    }
+
+}
