@@ -129,17 +129,17 @@ nav a:hover {
 }
 
 .profile-circle {
-    width: 190px;
-    height: 190px;
-    border: 2px solid #a779ff;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    margin: 0 auto 25px;
-    font-size: 55px;
-    font-weight: bold;
-    color: #d3baff;
-    background: #241737;
+  width: 150px;         /* Set your desired width */
+  height: 150px;        /* Must match width for a perfect circle */
+  border-radius: 50%;   /* Rounds the container into a circle */
+  overflow: hidden;     /* Clips any part of the image outside the circle */
+  display: inline-block;
+}
+
+.profile-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* Prevents image distortion and fills the circle */
 }
 
 .profile-box p {
