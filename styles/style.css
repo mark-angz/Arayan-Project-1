@@ -64,3 +64,86 @@ nav a:hover {
     border-radius: 20px;
     font-size: 13px;
 }
+
+/* COMMIT 3: HOME SECTION DESIGN */
+
+.hero {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 80px 7%;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.welcome {
+    color: #b58aff;
+    letter-spacing: 3px;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: 65px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #b58aff;
+}
+
+.hero h3 {
+    font-size: 15px;
+    color: #c9c1d5;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #aaa1b5;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    display: inline-block;
+    background: #8650db;
+    color: white;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 7px;
+}
+
+.profile-box {
+    text-align: center;
+    background: #151020;
+    border: 1px solid #7545b7;
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0 0 40px #321b54;
+    transform: rotate(2deg);
+}
+
+.profile-circle {
+    width: 190px;
+    height: 190px;
+    border: 2px solid #a779ff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 25px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #d3baff;
+    background: #241737;
+}
+
+.profile-box p {
+    color: #a99db9;
+    font-size: 10px;
+    margin-top: 10px;
+}
