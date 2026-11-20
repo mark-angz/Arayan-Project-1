@@ -1,0 +1,21 @@
+/* COMMIT 1: BASIC WEBSITE DESIGN */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #08060d;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 25px;
+}
+
+h2 {
+    color: #a779ff;
+}
