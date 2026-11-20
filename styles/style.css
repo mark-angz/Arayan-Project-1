@@ -384,3 +384,51 @@ CONTACT AND FOOTER DESIGN */
     color: #b58aff;
     text-decoration: none;
 }
+
+FINAL VISUAL THEME */
+
+body {
+    background:
+        radial-gradient(
+            circle at 80% 10%,
+            rgba(112, 57, 206, .15),
+            transparent 400px
+        ),
+        #08060d;
+}
+
+section {
+    position: relative;
+}
+
+.skill-card,
+.project-card,
+.contact-container a {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
+}
+
+.skill-card:hover,
+.project-card:hover {
+    box-shadow: 0 10px 35px rgba(134, 80, 219, .18);
+}
+
+.hero-button,
+.contact-button {
+    box-shadow: 0 5px 20px rgba(134, 80, 219, .25);
+}
+
+.hero-button:hover,
+.contact-button:hover {
+    background: #a779ff;
+}
+
+.profile-box {
+    box-shadow:
+        0 0 25px rgba(155, 105, 255, .18),
+        0 20px 50px rgba(0, 0, 0, .4);
+}
+
+::selection {
+    background: #8650db;
+    color: white;
+}
